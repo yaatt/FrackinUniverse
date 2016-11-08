@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":97,
+ "tilecount":100,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -492,7 +492,22 @@
           "object" : "fugallows",
           "imagePositionX" : "-40",
           "imagePositionY" : "0"
-      } 
+      },
+      "97" : {
+          "object" : "pumpinfu",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },
+      "98" : {
+          "object" : "pumpoutfu",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"          
+      },
+      "99" : {
+          "object" : "pumpoutpressurefu",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"          
+      }      
     },
       
  "tiles":
@@ -884,6 +899,18 @@
       "96":
         {
          "image":"./../../../../tiled/frackinuniverse-custom/objects/fugallows.png"
+        },
+      "97":
+        {
+         "image":"./../../../../tiled/frackinuniverse-custom/objects/pumpinfu.png"
+        },
+      "98":
+        {
+         "image":"./../../../../tiled/frackinuniverse-custom/objects/pumpoutfu.png"
+        },
+      "99":
+        {
+         "image":"./../../../../tiled/frackinuniverse-custom/objects/pumpoutpressurefu.png"
         } 
     },
  "tilewidth":285
